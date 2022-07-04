@@ -1,7 +1,7 @@
 import {Router} from 'express'
-import AdminController from '../controllers/admin'
+import * as AdminController from '../controllers/admin.js'
 const Admin = Router()
 
-Admin.get('/', AdminController.fetchData)
+Admin.get('/', AdminController.fetchSiswa)
 
-export default A
+module.exports = Admin

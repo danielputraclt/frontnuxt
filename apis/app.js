@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import Admin from './src/routes/admin'
+import Admin from './src/routes/admin.js'
 require('dotenv').config({path: `./${process.env.NODE_ENV}.env`})
 const app = express()
 
