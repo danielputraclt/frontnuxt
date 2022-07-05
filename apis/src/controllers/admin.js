@@ -1,4 +1,4 @@
-import getSiswaServices from '../services/admin/get'
+import * as getSiswaServices from '../services/admin/get'
 import * as putSiswaServices from '../services/admin/put'
 import * as postSiswaServices from '../services/admin/post'
 import * as deleteSiswaServices from '../services/admin/delete'
